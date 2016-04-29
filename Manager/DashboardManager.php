@@ -10,15 +10,15 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\AdminBundle\Manager\Admin;
+namespace WellCommerce\Bundle\AdminBundle\Manager;
 
-use WellCommerce\Bundle\CoreBundle\Manager\Admin\AbstractAdminManager;
+use WellCommerce\Bundle\CoreBundle\Manager\AbstractManager;
 
 /**
- * Class UserGroupManager
+ * Class DashboardManager
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class UserGroupManager extends AbstractAdminManager
+class DashboardManager extends AbstractManager
 {
 }

@@ -10,18 +10,18 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\AdminBundle\Manager\Admin;
+namespace WellCommerce\Bundle\AdminBundle\Manager;
 
 use WellCommerce\Bundle\AdminBundle\Entity\UserInterface;
 use WellCommerce\Bundle\AdminBundle\Exception\ResetPasswordException;
-use WellCommerce\Bundle\CoreBundle\Manager\Admin\AbstractAdminManager;
+use WellCommerce\Bundle\CoreBundle\Manager\AbstractManager;
 
 /**
  * Class UserManager
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class UserManager extends AbstractAdminManager
+class UserManager extends AbstractManager
 {
     public function resetPassword($username)
     {
